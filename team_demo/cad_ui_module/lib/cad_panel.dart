@@ -3,5 +3,5 @@ class CadPanel {
 
   String get statusText => 'Ready';
 
-  String get activeToolText => 'Active tool: Select';
+  String get activeToolText => 'Active tool: Pan';
 }
