@@ -3,5 +3,7 @@ class CadPanel {
 
   String get statusText => 'Ready';
 
-  String get activeToolText => 'Active tool: Zoom';
+  List<String> get availableTools => const ['Pan', 'Zoom'];
+
+  String get activeToolText => 'Active tool: Pan';
 }
